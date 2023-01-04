@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.container {
+  background-color: white;
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 60px;
+  font-family: 'Roboto';
+}
+
+.sub-container-1 {
+  background-color: #000000;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  color: white;
+}
+
+.sub-container-2 {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  color: black;
+}
+
+button {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100px;
+  margin: 20px;
+  border-width: 3px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 40px;
+}
